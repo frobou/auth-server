@@ -1,0 +1,27 @@
+{
+  "name": "programmer/auth-server",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Fabio Pimenta",
+      "email": "fabio@ispti.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OAuth2ServerExamples\\": "src/"
+    }
+  },
+  "require": {
+    "slim/slim": "3.0.*",
+    "league/oauth2-server": "^6.0",
+    "zendframework/zend-diactoros": "^1.5"
+  },
+  "require-dev": {
+    "league/event": "^2.1",
+    "lcobucci/jwt": "^3.1",
+    "paragonie/random_compat": "^2.0",
+    "psr/http-message": "^1.0",
+    "defuse/php-encryption": "^2.1"
+  }
+}
