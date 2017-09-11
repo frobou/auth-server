@@ -1,0 +1,7 @@
+- criar o console (cli-config e doctrine.php)
+- validar: vendor/bin/doctrine orm:validate-schema
+- criar as classes de entidades e fazer as anotacoes necessarias
+- sincronizar as entidades com o banco: vendor/bin/doctrine orm:schema-tool:create
+- sincronizar as entidades alteradas:
+    vendor/bin/doctrine orm:schema-tool:update --dump-sql (mostra o comando a ser executado)
+    vendor/bin/doctrine orm:schema-tool:update --force (faz as aleracoes)
